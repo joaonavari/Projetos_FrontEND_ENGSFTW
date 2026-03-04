@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redes de Computadores</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header,
+      footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      article {
+        background-color: #f4f4f4;
+        padding: 15px;
+        margin-bottom: 15px;
+      }
+
+      aside {
+        background-color: #ddd;
+        padding: 10px;
+        margin-top: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+
+      .header {
+        background-color: #333;
+      }
+
+      #main {
+        padding: 20px;
+      }
+
+      #footer {
+        background-color: #222;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <header>
+        <h1>Redes</h1>
+        <p>Bem-vindo à minha página sobre Redes de Internet</p>
+      </header>
+    </div>
+
+    <nav>
+      <a href="#internet" target="_self">O que é a Internet</a>
+      <a href="#tipos" target="_self">Tipos de Conexão</a>
+      <a href="#recursos" target="_self" title="Recursos e Boas Práticas"
+        >Recursos</a
+      >
+      <a href="#Feedback" target="_blank">Feedback</a>
+    </nav>
+
+    <div id="main">
+      <section id="internet">
+        <h2>O que é a Internet</h2>
+        <p>
+          A Internet é uma vasta rede global de computadores e dispositivos
+          interconectados que possibilita a troca de informações, comunicação e
+          acesso a serviços digitais. Ela se baseia em protocolos como TCP/IP e
+          engloba serviços como a World Wide Web, e-mail, streaming e muito
+          mais.
+        </p>
+        <p>
+          Componentes-chave: provedores de acesso (ISPs), roteadores,
+          servidores, data centers e protocolos de comunicação. A Web (WWW) é um
+          serviço que roda sobre a Internet, usando HTTP/HTTPS para acessar
+          páginas e aplicações.
+        </p>
+        <p>
+          Ao usar a Internet, interagimos com aplicações em camadas: a
+          infraestrutura física (cabos, satélites, torres), protocolos de
+          transporte e aplicações finais (navegadores, apps).
+        </p>
+      </section>
+
+      <section id="tipos">
+        <h2>Principais Tipos de Conexão</h2>
+        <p>
+          Abaixo estão cinco categorias de rede em diferentes escalas (com nome,
+          definição e exemplo prático):
+        </p>
+
+        <h3>1. PAN — Rede de Área Pessoal</h3>
+        <p><strong>Nome:</strong> Rede de Área Pessoal.</p>
+        <p>
+          <strong>O que é:</strong> É a rede de menor alcance existente, focada
+          em conectar dispositivos que pertencem a uma única pessoa.
+        </p>
+        <p>
+          <strong>Exemplo prático:</strong> A conexão entre o seu notebook e o
+          seu fone de ouvido ou mouse via Bluetooth. O alcance geralmente não
+          passa de 10 metros.
+        </p>
+
+        <h3>2. LAN — Rede de Área Local</h3>
+        <p><strong>Nome:</strong> Rede de Área Local.</p>
+        <p>
+          <strong>O que é:</strong> Conecta dispositivos em um espaço físico
+          limitado, como uma sala, uma casa ou um escritório. Oferece altas
+          taxas de transmissão de dados.
+        </p>
+        <p>
+          <strong>Exemplo prático:</strong> A rede interna de um Colégio ou a
+          rede Wi‑Fi em uma casa que interliga seu computador à impressora e ao
+          roteador.
+        </p>
+
+        <h3>3. WLAN — Rede de Área Local Sem Fio</h3>
+        <p><strong>Nome:</strong> Rede de Área Local Sem Fio.</p>
+        <p>
+          <strong>O que é:</strong> É basicamente uma LAN que utiliza ondas de
+          rádio em vez de cabos físicos (como o Ethernet). Segue os padrões IEEE
+          802.11.
+        </p>
+        <p>
+          <strong>Exemplo prático:</strong> Quando você desconecta o cabo do
+          notebook e passa a usar o Wi‑Fi para navegar; você ainda está na rede
+          local, mas agora de forma wireless.
+        </p>
+
+        <h3>4. MAN — Rede de Área Metropolitana</h3>
+        <p><strong>Nome:</strong> Rede de Área Metropolitana.</p>
+        <p>
+          <strong>O que é:</strong> Uma rede que abrange uma área geográfica
+          maior que a LAN, como uma cidade inteira ou um grande campus
+          universitário. Ela interliga várias LANs.
+        </p>
+        <p>
+          <strong>Exemplo prático:</strong> Uma rede de uma operadora de TV a
+          cabo.
+        </p>
+
+        <h3>5. WAN — Rede de Longa Distância</h3>
+        <p><strong>Nome:</strong> Rede de Longa Distância.</p>
+        <p>
+          <strong>O que é:</strong> Redes que cobrem grandes distâncias, como
+          países, continentes ou o planeta inteiro. Elas utilizam tecnologias
+          como satélites e cabos submarinos.
+        </p>
+        <p>
+          <strong>Exemplo prático:</strong> A própria Internet. Quando você
+          acessa um servidor da Amazon hospedado em outro estado ou país, os
+          dados estão trafegando por uma WAN.
+        </p>
+
+        <h3>Resumo comparativo</h3>
+        <p>
+          Esses tipos variam por alcance, largura de banda e finalidade: PAN
+          (pessoal, curto alcance), LAN/WLAN (doméstico/empresarial), MAN
+          (metropolitano) e WAN (interconexão em larga escala).
+        </p>
+      </section>
+
+      <section id="camadas">
+        <h2>Camadas e Modelos de Rede</h2>
+        <p>
+          Ao estudar redes, é comum utilizar modelos em camadas para separar
+          responsabilidades — por exemplo, o modelo OSI (7 camadas) e o modelo
+          TCP/IP (4 camadas). Esses modelos ajudam a entender como os dados são
+          encapsulados, roteados e entregues entre dispositivos.
+        </p>
+        <p>
+          Exemplo prático: A aplicação (navegador) usa HTTP/HTTPS; esses pacotes
+          são encapsulados nas camadas inferiores (transporte, rede, enlace)
+          para serem entregues ao destino.
+        </p>
+      </section>
+
+      <section id="servicos">
+        <h2>Serviços e Aplicações na Internet</h2>
+        <p>
+          A Internet oferece diversos serviços — Web (HTTP/HTTPS), e‑mail
+          (SMTP/IMAP), transferência de arquivos (FTP/SFTP), streaming de vídeo
+          e áudio, jogos online e serviços de nuvem.
+        </p>
+        <p>
+          Exemplo prático: Ao assistir a um vídeo em uma plataforma de
+          streaming, o conteúdo é entregue por servidores que podem estar
+          distribuídos globalmente (CDNs), melhorando velocidade e
+          disponibilidade.
+        </p>
+      </section>
+
+      <section id="recursos">
+        <h2>Segurança e Boas Práticas</h2>
+        <p>
+          Algumas recomendações rápidas para usar a Internet de forma segura e
+          eficiente:
+        </p>
+        <ul>
+          <li>
+            Use senhas fortes e autenticação em duas etapas quando possível.
+          </li>
+          <li>
+            Prefira conexões seguras (HTTPS) e redes confiáveis; evite redes
+            Wi‑Fi públicas para operações sensíveis.
+          </li>
+          <li>
+            Mantenha o sistema e aplicativos atualizados para reduzir
+            vulnerabilidades.
+          </li>
+          <li>
+            Desconfie de links e anexos em e-mails não solicitados (phishing).
+          </li>
+          <li>Faça backups regulares dos seus dados importantes.</li>
+        </ul>
+
+        <p>
+          Mais recursos:
+          <a
+            href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_Internet#:~:text=Hist%C3%B3ria%20da%20Internet%20%E2%80%93%20Wikip%C3%A9dia%2C%20a%20enciclop%C3%A9dia%20livre"
+            target="_blank"
+            >Estatísticas da Internet</a
+          >
+        </p>
+      </section>
+    </div>
+    <section id="Feedback">
+      <h3>Fale conosco</h3>
+      <form>
+        <fieldset>
+          <legend>Sua experiencia com este material!</legend>
+          <label> Nome </label>
+          <input type="text" id="name" name="nome" />
+          <br />
+          <label>Antes de ler este material, você:</label>
+          <div class="select-wrapper">
+            <select id="experiencia" name="experiencia_previa">
+              <option value="" disabled selected>
+                - Clique aqui e escolha uma opção -
+              </option>
+              <option value="nunca">
+                Nunca tinha ouvido falar(Primeiro Contato)
+              </option>
+              <option value="ouviFalar">
+                Já ouvi falar(Teoria, mas não pratiquei)
+              </option>
+              <option value="useiAlgumas">
+                Já usei algumas vezes(Tenho dúvidas)
+              </option>
+              <option value="altoConhecimento">
+                Já dominava o assunto (Só Revisão)
+              </option>
+            </select>
+          </div>
+          <br />
+          <p>Após ler, você se sente capaz de usar as funções?</p>
+          <label>
+            <input type="radio" name="capacidade" value="sim" /> Sim,
+            conseguiria usar em um exercício
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="capacidade" value="mais_ou_menos" /> Mais
+            ou menos, ainda tenho dúvidas
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="capacidade" value="nao" /> Ainda não me
+            sinto seguro(a)
+          </label>
+          <br />
+          <br />
+          <p>O conteúdo estava bem organizado e fácil de seguir?</p>
+          <label>
+            <input type="radio" name="organizacao" value="sim" /> Sim, estava
+            claro e bem estruturado
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="organizacao" value="parcialmente" />
+            Parcialmente, algumas partes confundiram
+          </label>
+          <br />
+          <label>
+            <input type="radio" name="organizacao" value="nao" /> Não, ficou
+            difícil de acompanhar
+          </label>
+          <br />
+          <br />
+          <label for="sugestoes">Sugestões (opcional)</label>
+          <br />
+          <textarea
+            id="sugestoes"
+            name="sugestoes"
+            rows="4"
+            cols="50"
+            placeholder="Escreva aqui suas sugestões"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <div id="footer">
+      <footer>
+        <h5>Rodapé</h5>
+        <h6>Todos os direitos reservados</h6>
+      </footer>
+    </div>
+  </body>
+</html>
