@@ -1,0 +1,219 @@
+/* Configurações Gerais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0f172a; /* Azul marinho muito escuro */
+    color: #e2e8f0; /* Cinza claro para leitura */
+    padding: 20px;
+}
+
+#pagina {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #1e293b; /* Fundo dos cards */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Cabeçalhos */
+header {
+    text-align: center;
+    border-bottom: 2px solid #38bdf8;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #38bdf8; /* Azul brilhante "tech" */
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #818cf8;
+    border-left: 4px solid #818cf8;
+    padding-left: 15px;
+    margin: 40px 0 20px;
+}
+
+h3 {
+    color: #f87171; /* Vermelho suave para os títulos de artigos */
+    margin-bottom: 10px;
+}
+
+/* Navegação */
+nav {
+    background: #334155;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Blocos de Conteúdo */
+article {
+    background: #1e293b;
+    border: 1px solid #334155;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    border-color: #475569;
+}
+
+aside {
+    background: #4338ca;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+blockquote {
+    border-left: 4px solid #10b981;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #064e3b;
+    color: #a7f3d0;
+}
+
+/* Elementos de Código */
+pre, code {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    background: #000;
+    color: #34d399;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+pre {
+    padding: 15px;
+    overflow-x: auto;
+    margin: 15px 0;
+    border: 1px solid #334155;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background: #0f172a;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #334155;
+}
+
+th {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+/* Formulários */
+fieldset {
+    border: 2px solid #475569;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background: #0f172a;
+    border: 1px solid #334155;
+    color: white;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #7dd3fc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #334155;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+/* Interatividade */
+details {
+    background: #334155;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    color: #38bdf8;
+}
