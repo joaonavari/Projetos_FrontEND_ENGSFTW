@@ -8,15 +8,15 @@
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-color: #0f172a; /* Azul marinho muito escuro */
-    color: #e2e8f0; /* Cinza claro para leitura */
+    background-color: #0f172a; 
+    color: #e2e8f0; 
     padding: 20px;
 }
 
 #pagina {
     max-width: 900px;
     margin: 0 auto;
-    background: #1e293b; /* Fundo dos cards */
+    background: #1e293b; 
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.5);
@@ -31,7 +31,7 @@ header {
 }
 
 h1 {
-    color: #38bdf8; /* Azul brilhante "tech" */
+    color: #38bdf8; 
     font-size: 2.2rem;
     margin-bottom: 10px;
 }
@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    color: #f87171; /* Vermelho suave para os títulos de artigos */
+    color: #f87171; 
     margin-bottom: 10px;
 }
 
