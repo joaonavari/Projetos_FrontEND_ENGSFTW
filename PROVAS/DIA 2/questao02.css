@@ -1,0 +1,77 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.cartao-grupo {
+    background-color: #ffffff; 
+    border: 2px solid #ddd; 
+    border-radius: 12px; 
+    padding: 20px; 
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.cartao-grupo:hover {
+    transform: translateY(-5px);
+}
+
+.cartao-grupo h2 {
+    color: #1a5fb4;
+    text-align: center;
+}
+
+.cartao-grupo ul {
+    padding-left: 20px;
+}
+
+.cartao-grupo li {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+details {
+    margin-top: 15px;
+    cursor: pointer;
+    background: #eef2f7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.container-botao {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btnProximo {
+    background-color: #1a5fb4;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
