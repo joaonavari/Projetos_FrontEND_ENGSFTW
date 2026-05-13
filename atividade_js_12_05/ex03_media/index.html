@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03: Média Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🎓 Média Escolar</h2>
+        <p>Informe o nome do aluno e as três notas.</p>
+        
+        <div class="input-group">
+            <input type="text" id="nomeAluno" placeholder="Nome do Aluno">
+            <input type="number" id="nota1" step="0.1" min="0" max="10" placeholder="Nota 1 (Ex: 7.5)">
+            <input type="number" id="nota2" step="0.1" min="0" max="10" placeholder="Nota 2 (Ex: 6.0)">
+            <input type="number" id="nota3" step="0.1" min="0" max="10" placeholder="Nota 3 (Ex: 8.2)">
+            
+            <button id="btnCalcular">Calcular Média</button>
+        </div>
+        
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

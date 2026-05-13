@@ -1,140 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meus Projetos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
 
-        body {
-            background: linear-gradient(135deg, #1e1e2f, #2b5876);
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
+      body {
+        background: linear-gradient(135deg, #1e1e2f, #2b5876);
+        color: white;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
 
-        h1 {
-            margin-bottom: 40px;
-            font-size: 2.5rem;
-        }
+      h1 {
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+      }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 18px;
-            width: 100%;
-            max-width: 860px;
-        }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        width: 100%;
+        max-width: 860px;
+      }
 
-        .card {
-            background: #ffffff;
-            color: #1e1e2f;
-            border: 2px solid #2b5876;
-            border-radius: 12px;
-            padding: 24px;
-            text-align: left;
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-            cursor: pointer;
-            text-decoration: none;
-            width: 100%;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-        }
+      .card {
+        background: #ffffff;
+        color: #1e1e2f;
+        border: 2px solid #2b5876;
+        border-radius: 12px;
+        padding: 24px;
+        text-align: left;
+        transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease;
+        cursor: pointer;
+        text-decoration: none;
+        width: 100%;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
 
-        .card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
-            border-color: #ff6f61;
-        }
+      .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+        border-color: #ff6f61;
+      }
 
-        .card h2 {
-            margin-bottom: 10px;
-        }
+      .card h2 {
+        margin-bottom: 10px;
+      }
 
-        .card p {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
+      .card p {
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
 
-        footer {
-            margin-top: 40px;
-            font-size: 0.8rem;
-            opacity: 0.7;
-        }
+      footer {
+        margin-top: 40px;
+        font-size: 0.8rem;
+        opacity: 0.7;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>Meus Projetos</h1>
 
     <div class="container">
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_aula1/"
+        class="card"
+      >
+        <h2>Atividade 1 - Colecionador</h2>
+        <p>Projeto local de UI com cards e filtros.</p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_aula1/" class="card">
-            <h2>Atividade 1 - Colecionador</h2>
-            <p>Projeto local de UI com cards e filtros.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/bixinho_js/"
+        class="card"
+      >
+        <h2>Atividade 2 - Atividade Virtual Pet</h2>
+        <p>Demonstração de js html e css.</p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/bixinho_js/" class="card">
-            <h2>Atividade 2 - Atividade Virtual Pet</h2>
-            <p>Demonstração de js html e css.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula3/"
+        class="card"
+      >
+        <h2>Atividade 3 - CSS Avançado</h2>
+        <p>Demonstração de responsividade e animações.</p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula3/" class="card">
-            <h2>Atividade 3 - CSS Avançado</h2>
-            <p>Demonstração de responsividade e animações.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_aula4/"
+        class="card"
+      >
+        <h2>Atividade 4 - Framework DaisyUI</h2>
+        <p>
+          Demonstração de responsividade e animações usando componentes DaisyUI.
+        </p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_aula4/" class="card">
-            <h2>Atividade 4 - Framework DaisyUI</h2>
-            <p>Demonstração de responsividade e animações usando componentes DaisyUI.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula5/"
+        class="card"
+      >
+        <h2>Atividade 5 - Framework Bootstrap</h2>
+        <p>
+          Demonstração de responsividade e animações usando componentes
+          Bootstrap.
+        </p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula5/" class="card">
-            <h2>Atividade 5 - Framework Bootstrap</h2>
-            <p>Demonstração de responsividade e animações usando componentes Bootstrap.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula6/"
+        class="card"
+      >
+        <h2>Atividade 6 - Aprendizagem</h2>
+        <p>Tutorial interativo de fundamentos em JavaScript.</p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/Projeto_aula6/" class="card">
-            <h2>Atividade 6 - Aprendizagem</h2>
-            <p>Tutorial interativo de fundamentos em JavaScript.</p>
-        </a>
+      <a
+        href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_mercado/"
+        class="card"
+      >
+        <h2>Atividade 7 - Caixa Livre</h2>
+        <p>Demonstração e aplicação de js html e css.</p>
+      </a>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/projeto_mercado/" class="card">
-            <h2>Atividade 7 - Caixa Livre</h2>
-            <p>Demonstração e aplicação de js html e css.</p>
-        </a>
+      <section class="card">
+        <h2>Atividade 8 - Correção de Prova 1</h2>
+        <p>Resoluções e gabaritos dos exercícios aplicados na avaliação.</p>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/" class="card">
-            <h2>2 Bimestre Atividade 8 - Prova 1</h2>
-            <p>Correção da prova do dia 1 (js html e css).</p>
-        </a>
+        <ul>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 1/questao01.html" target="_blank"
+              >Resolução: Exercícios 01, 02 e 03</a
+            >
+          </li>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 1/questao_04.html" target="_blank"
+              >Resolução: Exercício 04</a
+            >
+          </li>
+        </ul>
+      </section>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/" class="card">
-            <h2>2 Bimestre Atividade 8.1 - Prova 2</h2>
-            <p>Correção da prova do dia 2 (js html e css).</p>
-        </a>
+            <section class="card">
+        <h2>Atividade 8.1 - Correção de Prova 2</h2>
+        <p>Resoluções e gabaritos dos exercícios aplicados na avaliação.</p>
 
-        <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/" class="card">
-            <h2>2 Bimestre Atividade 8.2 - Prova 3</h2>
-            <p>Correção da prova do dia 3 (js html e css).</p>
-        </a>
+        <ul>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 2/questao01.html" target="_blank"
+              >Resolução: Exercícios 01, 02 e 03</a
+            >
+          </li>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 2/questao_04.html" target="_blank"
+              >Resolução: Exercício 04</a
+            >
+          </li>
+        </ul>
+      </section>
 
+            <section class="card">
+        <h2>Atividade 8.2 - Correção de Prova 3</h2>
+        <p>Resoluções e gabaritos dos exercícios aplicados na avaliação.</p>
+
+        <ul>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 3/questao01.html" target="_blank"
+              >Resolução: Exercícios 01, 02 e 03</a
+            >
+          </li>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/PROVAS/DIA 3/questao_04.html" target="_blank"
+              >Resolução: Exercício 04</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Atividade 9: Práticas de JavaScript</h2>
+        <p>
+          Exercícios focados em lógica de programação, manipulação de DOM e
+          eventos em tempo real.
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/atividade_js_12_05/ex01_cpf/index.html" target="_blank"
+              >Exercício 01: Validador de CPF</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/atividade_js_12_05/ex02_temperatura/index.html"
+              target="_blank"
+              >Exercício 02: Conversor de Temperatura</a
+            >
+          </li>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/atividade_js_12_05/ex03_media/index.html" target="_blank"
+              >Exercício 03: Cálculo de Média Escolar</a
+            >
+          </li>
+          <li>
+            <a href="https://joaonavari.github.io/Projetos_FrontEND_ENGSFTW/atividade_js_12_05/ex04_banco/index.html" target="_blank"
+              >Exercício 04: Simulador Infinity Bank</a
+            >
+          </li>
+        </ul>
+      </section>
     </div>
 
-    <footer>
-        © 2026 - João Vitor Navari | Desenvolvido por você
-    </footer>
-
-</body>
+    <footer>© 2026 - João Vitor Navari | Desenvolvido por você</footer>
+  </body>
 </html>
